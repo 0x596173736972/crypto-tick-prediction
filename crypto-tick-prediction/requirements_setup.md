@@ -1,4 +1,4 @@
-# BTC/USDT Tick-Level Micro-Prediction Pipeline - Requirements & Setup
+# Crypto Tick-Level Micro-Prediction Pipeline - Requirements & Setup
 
 ## 📋 System Requirements
 
@@ -282,7 +282,7 @@ pip install xgboost[gpu]
 ```bash
 # Install kernel
 python -m ipykernel install --user --name=btc_prediction
-# Select kernel in Jupyter: Kernel > Change Kernel > btc_prediction
+# Select kernel in Jupyter: Kernel > Change Kernel > crypto_prediction
 ```
 
 ## 📊 Expected Resource Usage
