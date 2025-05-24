@@ -154,25 +154,6 @@ timestamp,price,amount,side
 ...
 ```
 
-## 🗂️ Directory Structure
-
-```
-btc_prediction_project/
-├── data/
-│   ├── btcusdt_trades.csv.gz
-│   └── other_pairs/
-├── notebooks/
-│   └── btc_tick_prediction.ipynb
-├── results/
-│   ├── backtest_results_20240101_120000.parquet
-│   ├── model_metrics_20240101_120000.json
-│   └── feature_importance_20240101_120000.csv
-├── models/
-│   └── xgboost_model_20240101_120000.json
-├── requirements.txt
-└── README.md
-```
-
 ## ⚙️ Configuration
 
 Before running the notebook, update the CONFIG section:
