@@ -1,0 +1,14 @@
+# Standardisation des fins de ligne
+* text=auto
+
+# Traitement spécifique des notebooks
+*.ipynb text eol=lf
+
+# Fichiers binaires
+*.parquet binary
+*.gz binary
+*.pkl binary
+
+# Langues pour GitHub linguist
+*.ipynb linguist-detectable
+*.py linguist-detectable
